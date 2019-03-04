@@ -16,12 +16,12 @@ Brainfuck has only 8 commands, which describe the operation of a Turing machine.
 | Command	| Description|
 | --- |:---:| ---:|
 |`>` | Add one to the cursor (to point to the element on the right, assuming you read left-to-right)|
-|`<` | Subtract one from the cursur (to point to the element to the left, assuming you read left-to-right)|
+|`<` | Subtract one from the cursor (to point to the element to the left, assuming you read left-to-right)|
 |`+` | Add one to the element at the current cursor position |
 |`-` | Subract one from the element at the current cusor position |
 |`.` | Print the ASCII value of the byte in the element at the current cursor position |
 |`,` | Read in one byte of data, and place it in the element at the current cursor position |
-|`[` | Start a loop which ends when the element at the current cursor position is zero (equivilent to starting a while loop) |
+|`[` | Start a loop which ends when the element at the current cursor position is zero (equivalent to starting a while loop) |
 |`]` | Move back to the start of the loop |
 
 ## Why make ESBI?
@@ -34,7 +34,7 @@ The hardest part so far has been figuring out how to jump back to the start of a
 
 ## Future of ESBI?
 
-I'd like to keep hacking on this project, if the whim arrises. I'd like to make a debugger/editor, where you can write Brainfuck code, and then step forwards and backwards through it, while being able to inspect the contents of the infinite array and cursor location. I could then start to add macros or extensions to brainfuck to add features. This would mean it's not *officially* compliant with Brainfuck, but I'm doing this for my own education and enjoyment, so I think it's fine.
+I'd like to keep hacking on this project, if the whim arises. I'd like to make a debugger/editor, where you can write Brainfuck code, and then step forwards and backwards through it, while being able to inspect the contents of the infinite array and cursor location. I could then start to add macros or extensions to Brainfuck to add features. This would mean it's not *officially* compliant with Brainfuck, but I'm doing this for my own education and enjoyment, so I think it's fine.
 
 
 ## Show me the code!!
